@@ -37,12 +37,12 @@ app.get('/', function(req, res){
   res.render('index', { user: req.user });
 });
 app.get('/logged', function(req, res){
-  res.render('logged', { user: googleProfile });
+  res.render('logged', {user : googleProfile.displayName});
 });
 //Passport routes
 app.get('/auth/google',
-passport.authenticate('google', {
-scope : ['profile', 'email']
+  passport.authenticate('google', {
+    scope : ['profile', 'email']
 }));
 app.get('/auth/google/callback',
   passport.authenticate('google', {

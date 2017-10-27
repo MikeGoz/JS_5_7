@@ -1,8 +1,8 @@
 //json ze strony https://console.developers.google.com
 
 {"web":{"client_id":"30866411334-r5672c6m0sljroh5g51nl2o2kt8dgpn9.apps.googleusercontent.com",
-  "project_id":"nodeauth-182813","auth_uri":"https://accounts.google.com/o/oauth2/auth",
+  "project_id":"nodeauth-182813",
+  "auth_uri":"https://accounts.google.com/o/oauth2/auth",
   "token_uri":"https://accounts.google.com/o/oauth2/token",
   "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
-  "client_secret":"ArPKf4Zfz3yiIaMdx5z4LMGU"
-}}
+  "client_secret":"ArPKf4Zfz3yiIaMdx5z4LMGU"}}
